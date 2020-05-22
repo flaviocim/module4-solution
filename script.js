@@ -6,7 +6,7 @@
 for (var name in names) {
     var firstLetter = names[name].toLowerCase().charAt(0);
     if (firstLetter==='j') {
-      byeSpeaker.speak(names[name]);
+      GoodbyeSpeaker.speak(names[name]);
     } else {
       helloSpeaker.speak(names[name]);
     }
